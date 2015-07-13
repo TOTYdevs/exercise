@@ -2,12 +2,25 @@
 <html lang = "ja">
 <head>
 	<meta charset = "utf-8">
-	<title>Practice for JavaScript</title>
+	<title>About 滝野</title>
 </head>
 <body>
-  HELLO GIRL.
-	<script>
-		console.log("hello world");
-	</script>
+  <b>滝野 天嶺／Takamine TAKINO</b>
+  <br>
+  1991年2月8日京都生まれ
+  <br>
+  茨城県日立市在住
+  <br>
+  2015年3月同志社大学理工学研究科卒業
+  <br>
+  2015年4月株式会社日立製作所入社；欧州電力業界における新事業開拓を担当
+  <br>
+  趣味：筋トレ（主にスタビライゼーション）
+  
+  <!--
+  <script>
+    console.log("hello world");
+  </script>
+  -->
 </body>
 </html>
