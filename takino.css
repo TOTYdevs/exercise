@@ -1,0 +1,11 @@
+
+body {
+     background-size: 100% auto;
+     margin : 30pt;
+     }
+p {
+  font-size : 10.5pt;
+  color : black;
+  margin : 10pt;
+  width : 1000px;
+  }
