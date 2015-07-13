@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang = "ja">
+<head>
+  <meta charset = "utf-8">
+    <title>相乗りの流れ</title>
+    <link rel="stylesheet" type="text/css" href="how-it-works.css">
+</head>
+<body>
+
+   <h1 class="square">行きたい場所を登録する</h1>
+   <br />
+
+   <h2 class="triangle">▽ </h2>
+   <br />
+
+   <h1 class="square">マッチングが通知される</h1>
+   <br />
+
+   <h2  class="triangle">▽ </h2>
+   <br />
+
+   <h1 class="square">相乗りする</h1>
+
+</body>
+</html>
