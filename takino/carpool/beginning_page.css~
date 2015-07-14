@@ -1,9 +1,27 @@
 body {
-     background-size: 100% auto;
      margin : 10pt;
      color: black;
      font-family: "ＭＳ Ｐゴシック",sans-serif;
      }
+
+.background_pics{
+  background-image:
+     url("../profile/pic_takino/IMG_6368.JPG"),
+     url("pic/background_t2yq.png");  
+
+  background-repeat:
+     no-repeat,
+     no-repeat;
+
+  background-position:
+     0% top,
+     100% bottom;
+
+  background-size:
+     100%,
+     110%;
+
+}
 
 h1 {
    font-size: 36pt;
@@ -55,9 +73,6 @@ a:visited {                 /* 既に見たリンク */
 }
 a:active { color: white }
 
-b.background_logo img {
-  width: 105%;
-  margin: -10pt;
-  overflow: hidden;
-  position:absolute; bottom:-100%; right:0%;
+.organization_info{
+  margin: 300pt;
 }
