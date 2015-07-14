@@ -5,8 +5,8 @@
     <title>TOTY Carpool</title>
     <link rel="stylesheet" type="text/css" href="beginning_page.css">
 </head>
-<body background="/Users/Takamine/HitachiDevs/takino/profile/pic_takino/IMG_6368.JPG">
-  <a href="file:///Users/Takamine/HitachiDevs/takino/carpool/beginning_page.html"><img src="/Users/Takamine/HitachiDevs/takino/carpool/pic/logo_toty.png" width="80px" height="35px"></a>
+<body background="../profile/pic_takino/IMG_6368.JPG" position:absolute; bottom:0%; right:0%;>
+  <a href="beginning_page.html"><img src="pic/logo_toty.png" width="80px" height="35px"></a>
   <br /><br /><br /><br /><br /><br />
 
   <div style="line-height: 0.5">
@@ -17,9 +17,12 @@
   <div>
 
   <br />
-    <h2 class="how-it-works"><a href="file:///Users/Takamine/HitachiDevs/takino/carpool/how-it-works.html" style="text-decoration:none;">
+    <h2 class="how-it-works"><a href="how-it-works.html" style="text-decoration:none;">
       T2YQでの相乗りの流れ
     </h2>
+  <b class="background_logo">
+    <img src ="pic/background_t2yq.png">
+  </b>
 
 </body>
 

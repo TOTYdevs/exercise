@@ -48,6 +48,16 @@ p {
   background-color: rgba(255, 255, 255, .2);
 }
 
-.a {
-   color: white;
+a:link { color: white }   /* リンク */
+a:visited {                 /* 既に見たリンク */
+  color: white;
+  text-decoration: none     /* 下線を消す */
+}
+a:active { color: white }
+
+b.background_logo img {
+  width: 105%;
+  margin: -10pt;
+  overflow: hidden;
+  position:absolute; bottom:-100%; right:0%;
 }
