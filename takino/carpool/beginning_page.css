@@ -31,10 +31,10 @@ h1 {
    }
 
 p {
-  font-size : 10.5pt;
-  color : black;
-  margin : 10pt;
-  width : 1000px;
+    font-size : 10.5pt;
+    color : white;
+    width : 200px;
+    text-align: left;
   }
 
 .lets-make-assy {
@@ -72,8 +72,16 @@ a:visited {                 /* 既に見たリンク */
 }
 a:active { color: white }
 
-.organization_info{
-  margin: 450pt;
+.sub_info{
+  margin-top: 300pt;
+  font-family: "ＭＳ Ｐゴシック",sans-serif;
+  width:100px;
+  text-decoration:none;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+  text-align: left;
 }
 
 .example{
