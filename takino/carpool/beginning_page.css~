@@ -62,9 +62,7 @@ p {
 }
 
 .how-it-works:hover {
- /* background-color:transparent; */
-   background-color: rgba(0, 0, 0, .2);
-
+   background-color: rgba(0, 0, 0, .5);
 }
 
 a:link { color: white }   /* リンク */
@@ -83,7 +81,24 @@ a:active { color: white }
   margin: 500pt;
 }
 
-a.input{
+.input_1{
+  width:200px;  
   margin-right: auto;
   margin-left: auto;
+  position: absolute; left: 30%; top: 80%;
+}
+
+.input_2{
+  width:800px;
+  height: 800px;
+  margin-right: 500px;
+  margin-left: auto;
+  position: absolute; left: 30%; top: 80%;
+}
+
+.input_3{
+  width:800px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute; left: 30%; top: 80%;
 }

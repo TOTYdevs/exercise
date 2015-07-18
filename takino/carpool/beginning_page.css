@@ -7,7 +7,7 @@ body {
 .background_pics{
   background-image:
      url("../profile/pic_takino/IMG_6368.JPG"),
-     url("pic/background_t2yq.png");  
+     url("pic/background_earth.png");  
 
   background-repeat:
      no-repeat,
@@ -81,8 +81,28 @@ a:active { color: white }
   margin: 500pt;
 }
 
-.input{
-  width:800px;  
+h2.input_2{
+  margin-top: 100pt;
+  margin-left: 200pt;
+  height: 150px;   
+  position: left: 100%; top: 80%;
+}
+
+.inp{
+  font-size:20pt; 
   margin-right: auto;
   margin-left: auto;
+}
+
+input#search{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 80px;
+    height: 39px;
+    font-size: 0.8em;
+    background-color: skyblue;
+    border-radius:5px;
+    color: #fff;
+    border-style: none;
 }

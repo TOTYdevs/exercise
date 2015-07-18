@@ -61,14 +61,12 @@
       T2YQでの相乗りの流れ
     </a>
     </h2>
-  <a class="input">
-    <input type="text">
-      <input type="text" id="textbox1" />
-      <input type="text" id="textbox2" />
-  </a>
-
-<!--<IFRAME style="WIDTH: 350px; HEIGHT: 300px" class=wijmo-live-example src="livewidgetsJP/InputDateDropDownCal.html"></IFRAME>-->
-
+    
+      <input type="text" class="input_1">
+      <input type="text" id="textbox1" class="input_2">
+      <input type="text" id="textbox2" class="input_3">
+	
+	
 <div class="wijmo-wijinput ui-widget ui-helper-clearfix ui-state-default ui-corner-all ui-input-trigger-right" style="overflow: hidden;">
 <span class="wijmo-wijinput-wrapper"><input type="text" id="textbox1" class="wijmo-wijinput-input ui-corner-all wijmo-wijinput-date" role="combobox" aria-multiline="false" aria-expanded="false" aria-valuemin="Thu Feb 01 1900 00:00:00 GMT+0900 (JST)" aria-valuemax="Sun Feb 01 2099 00:00:00 GMT+0900 (JST)" aria-valuenow="Wed Jul 15 2015 01:04:47 GMT+0900 (JST)"></span><div class="wijmo-wijinput-trigger ui-state-default ui-corner-right" role="button"><span class="ui-icon ui-icon-triangle-1-s"></span></div></div>
 
