@@ -1,3 +1,9 @@
+a:link{ color: white}
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+a:active{ color:white }
 .image{
 	margin-top:3pt;
 }
@@ -18,15 +24,15 @@ p {
 
  h1{
  	margin-left: 10pt;
- 	color: black;
+ 	color: white;
  }
 
  h4{
-  margin-left: 10pt;
  }
 
 .profile{
-    width:1285px;
+		text-align: center;
+    width:120px;
     font-size:15px;
     text-decoration:none;
     display:block;
@@ -41,6 +47,18 @@ p {
    background-color: rgba(0, 0, 0, .1);
 }
 
+.photo{
+		width:500px;
+		font-size:15px;
+		text-decoration:none;
+		display:block;
+		padding:8px 0 10px;
+		color:#000;
+		line-height: 0.1px;
+		background-color: rgba(255, 255, 255, .5);
+		border-radius:8px;
+ }
+
 .info{
     width:424px;
     font-size:15px;
@@ -49,13 +67,61 @@ p {
     padding:8px 0 10px;
     color:#fff;
     line-height: 20px;
-    background-color: rgba(0, 255, 80, .3);
+    background-color: rgba(0, 255, 0, .3);
     border-radius:8px;
  }
 
  .info:hover{
-   background-color: rgba(0, 255, 80, .5);
+   background-color: rgba(0, 255, 0, .5);
  }
+
+ .ppp{
+	 color: white;
+ }
+
+ .pics{
+     width:424px;
+     font-size:15px;
+     text-decoration:none;
+     display:block;
+     padding:8px 0 10px;
+     color:#000	;
+     line-height: 20px;
+     background-color: rgba(0, 255, 80, .3);
+     border-radius:8px;
+		 text-align: center;
+  }
+
+  .pics:hover{
+    background-color: rgba(0, 255, 80, .5);
+  }
+
+ .info_2{
+     width:400px;
+     font-size:15px;
+     text-decoration:none;
+     display:block;
+     padding:8px 0 10px;
+     color:#fff;
+     line-height: 20px;
+     background-color: rgba(0, 255, 80, .3);
+     border-radius:8px;
+  }
+
+	.return{
+		margin-top: 10%;
+		margin-left: 50%;
+		width:50px;
+		font-size:15px;
+		text-decoration:none;
+		display:block;
+		padding:8px 0 10px;
+		color:#fff;
+		line-height: 20px;
+		background-color: rgba(0, 255, 80, .7);
+		border-radius:8px;
+		text-align: center;
+	}
 
 #modal-content{
   width:50%;

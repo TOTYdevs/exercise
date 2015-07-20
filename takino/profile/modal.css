@@ -18,7 +18,7 @@ body {
 	       display: none ;
 	       z-index: 2 ;
 }
-  
+
 #modal-overlay {
 	       z-index: 1 ;
 	       display: none ;
@@ -34,7 +34,7 @@ body {
 	     color: #00f ;
 	     text-decoration: underline ;
 }
- 
+
 .button-link:hover {
 		   cursor: pointer ;
 		   color: #f00 ;
