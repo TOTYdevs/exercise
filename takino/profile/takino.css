@@ -10,6 +10,10 @@ a:active{ color:white }
 body {
      background-size: 100% auto;
      margin : 30pt;
+		 /*
+		 background-attachment: scroll;
+		 background-position: fixed;
+		 */
      }
 p {
   font-size : 10.5pt;
@@ -153,7 +157,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 400%;
     display: block;
     text-indent: -9999px;
     position: absolute;
