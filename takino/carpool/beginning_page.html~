@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang = "ja">
+<head>
+  <meta charset = "utf-8">
+    <title>TOTY Carpool</title>
+    <link rel="stylesheet" type="text/css" href="beginning_page.css">
+
+      <!-- #Region "references" -->     
+      <!--jQuery References--> 
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+      <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+      
+      <!--Theme-->
+      <link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+      
+      <!--Wijmo Widgets CSS-->
+      <link href="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20151.71.min.css" rel="stylesheet" type="text/css" />
+      
+      <!--Wijmo Widgets JavaScript-->
+      <script src="http://cdn.wijmo.com/jquery.wijmo-open.all.3.20151.71.min.js" type="text/javascript"></script>
+      <script src="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20151.71.min.js" type="text/javascript"></script>
+      <script src="http://cdn.wijmo.com/interop/wijmo.data.ajax.3.20151.71.js" type="text/javascript"></script>
+      <!-- #End Region -->
+      <!-- #Region "css" -->
+      <style type="text/css">
+	
+      </style>
+      <!-- #End Region -->
+      <!-- #Region "js" -->      
+      <script type="text/javascript">
+	$(document).ready(function () {
+	   $("#textbox1").wijinputdate(
+              {
+                 showTrigger: true
+	   });
+	});
+      </script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+            $("#textbox2").wijinputdate(
+              {
+                 showTrigger: true
+            });
+        });
+      </script>
+</head>
+<body>
+  <body class="background_pics">
+  <a href="beginning_page.html"><img src="pic/logo_toty.png" width="80px" height="35px"></a>
+  <br /><br /><br /><br /><br /><br />
+
+  <div style="line-height: 0.5">
+    <h1>相乗りサービスへようこそ</h1>
+    <h2 class="lets-make-assy">
+      世界中にアッシーを作ろう
+    </h2>
+  <div>
+
+  <br />
+    <h2 class="how-it-works"><a href="how-it-works.html" style="text-decoration:none;">
+      T2YQでの相乗りの流れ
+    </a>
+    </h2>
+    
+      <input type="text" class="input_1">
+      <input type="text" id="textbox1" class="input_2">
+      <input type="text" id="textbox2" class="input_3">
+	
+	
+<div class="wijmo-wijinput ui-widget ui-helper-clearfix ui-state-default ui-corner-all ui-input-trigger-right" style="overflow: hidden;">
+<span class="wijmo-wijinput-wrapper"><input type="text" id="textbox1" class="wijmo-wijinput-input ui-corner-all wijmo-wijinput-date" role="combobox" aria-multiline="false" aria-expanded="false" aria-valuemin="Thu Feb 01 1900 00:00:00 GMT+0900 (JST)" aria-valuemax="Sun Feb 01 2099 00:00:00 GMT+0900 (JST)" aria-valuenow="Wed Jul 15 2015 01:04:47 GMT+0900 (JST)"></span><div class="wijmo-wijinput-trigger ui-state-default ui-corner-right" role="button"><span class="ui-icon ui-icon-triangle-1-s"></span></div></div>
+
+<script type="text/javascript">
+function calender(){
+  <table border="0" cellspacing="1" cellpadding="1" bgcolor="#CCCCCC" style="font: 12px; color: #666666;">
+    <tr>
+      <td align="center" colspan="7" bgcolor="#EEEEEE" height="18" style="color: #666666;">2015年7月</td></tr>
+    <tr>
+      <td align="center" width="20" height="18" bgcolor="#FF3300" style="color: #FFFFFF;">日</td>
+      <td align="center" width="20" bgcolor="#C7D8ED" style="color: #666666;">月</td>
+      <td align="center" width="20" bgcolor="#C7D8ED" style="color: #666666;">火</td>
+      <td align="center" width="20" bgcolor="#C7D8ED" style="color: #666666;">水</td>
+      <td align="center" width="20" bgcolor="#C7D8ED" style="color: #666666;">木</td>
+      <td align="center" width="20" bgcolor="#C7D8ED" style="color: #666666;">金</td>
+      <td align="center" width="20" bgcolor="#A6C0E1" style="color: #666666;">土</td>
+    </tr>
+    <tr>
+      <td align="center" height="18" bgcolor="#FFCC99" style="color: #666666;">　</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">　</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">　</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">1</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">2</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">3</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">4</td>
+    </tr>
+    <tr>
+      <td align="center" height="18" bgcolor="#FFCC99" style="color: #666666;">5</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">6</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">7</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">8</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">9</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">10</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">11</td>
+    </tr>
+    <tr>
+      <td align="center" height="18" bgcolor="#FFCC99" style="color: #666666;">12</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">13</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">14</td>
+      <td align="center" bgcolor="#FF3300" style="color: #FFFFFF;">15</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">16</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">17</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">18</td>
+    </tr>
+    <tr>
+      <td align="center" height="18" bgcolor="#FFCC99" style="color: #666666;">19</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">20</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">21</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">22</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">23</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">24</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">25</td>
+    </tr>
+    <tr>
+      <td align="center" height="18" bgcolor="#FFCC99" style="color: #666666;">26</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">27</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">28</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">29</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">30</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">31</td>
+      <td align="center" bgcolor="#FFFFFF" style="color: #666666;">　</td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF" height="18">&nbsp;</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+      <td bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table>
+  }
+</script>
+
+
+  <div style="line-height: 1.5"
+  <h3 class="organization_info">
+    組織情報<br />
+    T2YQとは
+    test
+  </h3>
+  <div>
+
+</body>
+
+</html>
